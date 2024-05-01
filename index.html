@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galaxy Client - BedWars Script</title>
+  <style>
+    body {
+      background-color: #2F2F4F; /* Dark purple background */
+      font-family: Arial, sans-serif;
+      color: #FFFFFF; /* White text */
+    }
+   .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #3B3F54; /* Darker purple background for container */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+   .script-container {
+      padding: 20px;
+      background-color: #444857; /* Darker grey background for script container */
+      border-radius: 10px;
+      overflow: auto;
+    }
+   .paste-button {
+      background-color: #6c5ce7; /* Purple button */
+      color: #FFFFFF;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+   .paste-button:hover {
+      background-color: #5c49e6; /* Darker purple button on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Galaxy Client - BedWars Script</h1>
+    <p>Get better at BedWars with our script!</p>
+    <div class="script-container">
+      <textarea id="script" cols="50" rows="20"></textarea>
+      <button class="paste-button" onclick="pasteScript()">Paste Script</button>
+    </div>
+  </div>
+
+  <script>
+    function pasteScript() {
+      var script = `-- Your script code goes here! --`;
+      document.getElementById("script").value = script;
+    }
+  </script>
+</body>
+</html>
