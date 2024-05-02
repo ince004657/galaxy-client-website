@@ -1,1 +1,90 @@
+-- Gui to Lua
+-- Version: 3.2
 
+--galaxy client private no leaks
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local Combattextlabel = Instance.new("TextLabel")
+local blatanttextlabel = Instance.new("TextLabel")
+local rendertexttable = Instance.new("TextLabel")
+local worldtexttable = Instance.new("TextLabel")
+local Frame_2 = Instance.new("Frame")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.100
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.117815286, 0, 0.0397022329, 0)
+Frame.Size = UDim2.new(0, 1128, 0, 734)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.909090936, 0, 0, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=2537987729"
+
+Combattextlabel.Name = "Combat text label"
+Combattextlabel.Parent = Frame
+Combattextlabel.BackgroundColor3 = Color3.fromRGB(199, 102, 255)
+Combattextlabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Combattextlabel.BorderSizePixel = 0
+Combattextlabel.Position = UDim2.new(0.15297547, 0, 0, 0)
+Combattextlabel.Size = UDim2.new(0, 195, 0, 50)
+Combattextlabel.Font = Enum.Font.SourceSans
+Combattextlabel.Text = "combat"
+Combattextlabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+Combattextlabel.TextSize = 14.000
+
+blatanttextlabel.Name = "blatant text label"
+blatanttextlabel.Parent = Combattextlabel
+blatanttextlabel.BackgroundColor3 = Color3.fromRGB(199, 102, 255)
+blatanttextlabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+blatanttextlabel.BorderSizePixel = 0
+blatanttextlabel.Position = UDim2.new(1, 0, 0, 0)
+blatanttextlabel.Size = UDim2.new(0, 211, 0, 50)
+blatanttextlabel.Font = Enum.Font.SourceSans
+blatanttextlabel.Text = "blatant"
+blatanttextlabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+blatanttextlabel.TextSize = 14.000
+
+rendertexttable.Name = "render text table"
+rendertexttable.Parent = Combattextlabel
+rendertexttable.BackgroundColor3 = Color3.fromRGB(199, 102, 255)
+rendertexttable.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rendertexttable.BorderSizePixel = 0
+rendertexttable.Position = UDim2.new(2.08205128, 0, 0, 0)
+rendertexttable.Size = UDim2.new(0, 208, 0, 50)
+rendertexttable.Font = Enum.Font.SourceSans
+rendertexttable.Text = "render"
+rendertexttable.TextColor3 = Color3.fromRGB(0, 0, 0)
+rendertexttable.TextSize = 14.000
+
+worldtexttable.Name = "world text table"
+worldtexttable.Parent = Combattextlabel
+worldtexttable.BackgroundColor3 = Color3.fromRGB(199, 102, 255)
+worldtexttable.BorderColor3 = Color3.fromRGB(0, 0, 0)
+worldtexttable.BorderSizePixel = 0
+worldtexttable.Position = UDim2.new(3.14871788, 0, 0, 0)
+worldtexttable.Size = UDim2.new(0, 207, 0, 50)
+worldtexttable.Font = Enum.Font.SourceSans
+worldtexttable.Text = "world"
+worldtexttable.TextColor3 = Color3.fromRGB(0, 0, 0)
+worldtexttable.TextSize = 14.000
+
+Frame_2.Parent = ScreenGui
+Frame_2.BackgroundColor3 = Color3.fromRGB(199, 102, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(0.117815264, 0, 0.0397022329, 0)
+Frame_2.Size = UDim2.new(0, 161, 0, 733)
