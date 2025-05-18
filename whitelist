@@ -1,3 +1,5 @@
+
+
 local Players = game:GetService("Players")
 local RbxAnalyticsService = game:GetService("RbxAnalyticsService")
 
@@ -16,8 +18,8 @@ local WhitelistedHWIDs = {
   "3c43cae0-4890-48b3-b0b3-7c8c76dd42b5", --JzTooCashy
   "79b113bd-1230-4559-af26-48c928d8a7ad", --vamp
   "493C3272-F28D-43E9-A399-B1BC633651C7", --Osynt (Adverb)
-  "DA9C0B77-B913-41D5-8BC2-1F239F9D2AC3", --adrianisdecent
-  "ccb2bb17-0ff1-4153-b2cb-08443126ba15", --koldenvy
+  "DA9C0B77-B913-41D5-8BC2-1F239F9D2AC3", --adrian_isdecent
+  "ccb2bb17-0ff1-4153-b2cb-08443126ba15", --koldenvy_
   "FFDCFD0A-5367-4B1E-8CCF-A94A387906DB",
   "9ca53d36-5ad1-4c00-a299-e2322d7ef824",
   "A19782F6-8CC5-4F6B-9E74-8476EE044358",
