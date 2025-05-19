@@ -44,6 +44,7 @@ local WhitelistedHWIDs = {
   "22015407-f800-4604-85ae-3f9f4189e600",
   "CAD86481-B4DC-4FA8-BCF2-2ACB5D45BA53",
   "08205F1B-F124-4A5C-BF6F-CBC2310F2AFF",
+  "cb85f649-c519-461b-bb23-c5906d9a632a",
 }
 
 -- Function to kill the script entirely
