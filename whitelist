@@ -59,6 +59,7 @@ local WhitelistedHWIDs = {
   "ae135a27-c469-48bb-aace-f60be9eb7f80",
   "81b39dac-1877-433a-819c-83cb8b61d615",
   "c43f9b5a-8c2a-43f9-81b5-9876f586db57",
+  "6a6ab65c-f6a5-4cf3-9b76-2fe1c00909e6",
 } 
 
 
